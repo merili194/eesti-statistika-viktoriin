@@ -4,8 +4,7 @@ Interaktiivne viktoriinirakendus Eesti statistika teemal. Ehitatud Reactiga, kuj
 
 ## Rakendus
 
-🔗 **Live demo:** `<lisa link siia>`  
-💻 **Kood:** `<lisa GitHub link siia>`
+🔗 **Live demo:** `https://statistika-viktoriin-merili-tiik.vercel.app/`  
 
 ---
 
