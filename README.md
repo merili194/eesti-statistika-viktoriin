@@ -1,6 +1,6 @@
 # Eesti Statistika Viktoriin
 
-Interaktiivne viktoriinirakendus Eesti statistika teemal. Ehitatud Reactiga, kujundus kooskõlas [Statistikaameti CVI-ga](https://brand.stat.ee/?lang=et).
+Interaktiivne viktoriinirakendus Eesti statistika teemal. Ehitatud Reactiga, kujundus kooskõlas Statistikaameti visuaalse identiteediga (https://brand.stat.ee/?lang=et).
 
 ## Rakendus
 
@@ -14,7 +14,7 @@ Interaktiivne viktoriinirakendus Eesti statistika teemal. Ehitatud Reactiga, kuj
 - Kohene tagasiside pärast iga vastust
 - Skoor uueneb reaalajas
 - Viktoriini lõpus kokkuvõttetabel ja isikupärastatud lõppsõnum
-- Statistikaameti visuaalse identiteedi järgne kujundus
+- Statistikaameti visuaalse identiteedi järgimine kujunduses
 
 ---
 
@@ -63,12 +63,10 @@ npx playwright test --reporter=html
 
 ### Konfiguratsioon
 
-Playwright kasutab `playwright.config.ts` faili. Olulisemad seaded:
+Playwright kasutab `playwright.config.js` faili. Olulisemad seaded:
 
 - **baseURL:** `http://localhost:3000`
 - **brauser:** Chromium (Desktop Chrome)
-- **paralleelsus:** väljas (`fullyParallel: false`)
-- **webServer:** `npm run dev` käivitatakse automaatselt enne teste
 
 ### Testide kirjeldus
 
