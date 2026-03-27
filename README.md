@@ -4,7 +4,7 @@ Interaktiivne viktoriinirakendus Eesti statistika teemal. Ehitatud Reactiga, kuj
 
 ## Rakendus
 
-🔗 **Live demo:** `https://statistika-viktoriin-merili-tiik.vercel.app/`  
+🔗 **Live demo:** <https://statistika-viktoriin-merili-tiik.vercel.app/>  
 
 ---
 
@@ -95,5 +95,5 @@ src/
 
 tests/
 └── viktoriin.spec.js    # Playwright E2E testid
-playwright.config.ts     # Playwright konfiguratsioon
+playwright.config.js     # Playwright konfiguratsioon
 ```
